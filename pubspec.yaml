@@ -1,0 +1,58 @@
+name: x_tv
+description: "X TV - Short Mini Drama Streaming App"
+publish_to: 'none'
+
+version: 1.0.2+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Auth & Backend
+  supabase_flutter: ^2.9.0
+
+  # State Management
+  provider: ^6.1.4
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # UI & Design
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+  smooth_page_indicator: ^1.2.0+3
+  flutter_staggered_animations: ^1.1.1
+
+  # Video
+  video_player: ^2.9.5
+  chewie: ^1.10.0
+
+  # Utilities
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+  flutter_svg: ^2.0.17
+
+  # Social Auth
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.4
+
+  # In-App Purchases
+  purchases_flutter: ^8.10.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
